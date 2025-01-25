@@ -5,6 +5,8 @@ Deep Learing 기반의 Recommender System의 구현 모음입니다. 모델 아�
 - Sequential Recommendation
 - Social Recommendation
 
+코드에서 각 기법에 해당하는 폴더를 클릭하시면 개념 및 코드 실행 방법을 자세히 보실 수 있습니다.
+
 # 2. Table of Contents
 
 |Method|종류|논문 링크|
