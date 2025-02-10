@@ -75,3 +75,16 @@ python evaluate.py --[args]
 ```
 
 # 5. 학습 결과
+## Learning Curve
+
+<p align="center"><img src="https://github.com/user-attachments/assets/adaba056-8260-43cd-a39c-6c99f9d92af4" width="70%" height="70%"></p>
+
+위 그림에서 왼쪽 그림은 epoch별로 train loss의 수렴 정도를 보여주고, 오른쪽 그림은 epoch이 진행됨에 따라 $k=20$의 precision, recall, ndcg, hit ratio를 보여줍니다.
+학습이 진행됨에 따라 loss가 잘 수렴하고 및 모델의 performance가 일정한 간격으로 잘 상승하는 것을 보여줍니다.
+
+## Testset Performance
+|모델|Precision@20|Recall@20|NDCG@20|HR@20|
+|------|---|---|---|---|
+|NGCF|0.0087|0.0210|0.0153|0.1454|
+
+위 표는 NGCF 모델에 대한 Amazon Book Testset Performance를 보여줍니다.
