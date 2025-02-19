@@ -16,4 +16,5 @@ Deep Learing 기반의 Recommender System의 구현 모음입니다. 모델 아�
 |------|---|---|---|
 |Nerual Collaborative Filtering|NCF|Collaborative Filtering|https://arxiv.org/abs/1708.05031|
 |Neural Graph Collaborative Filtering|NGCF|Collaborative Filtering|https://arxiv.org/abs/1905.08108|
+|Neural Attentive Session-based Recommendation|NARM|Sequential Recommendation|https://arxiv.org/abs/1711.04725|
 |Self-Attentive Sequential Recommendation|SASRec|Sequential Recommendation|https://arxiv.org/abs/1808.09781|
