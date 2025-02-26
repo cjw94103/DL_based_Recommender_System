@@ -60,3 +60,15 @@ python train.py --[args]
 - precision@1, precision@5, precision@10, recall@1, recall@5, recall@10을 metric로 사용
 - evaluate.py를 사용하며, args에 대한 자세한 내용은 코드 참조
 
+```bash
+python evaluate.py --[args]
+```
+
+# 5. 학습 결과
+
+## Learning Curve
+
+## Testset Performance
+|Dataset|모델|Precision@1|Precision@5|Precision@10|
+|------|---|---|---|---|
+|Gowalla|CosRec CNN|0.000|0.000|0.000|
