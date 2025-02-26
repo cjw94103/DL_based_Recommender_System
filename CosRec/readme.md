@@ -71,7 +71,7 @@ python evaluate.py --[args]
 ## Testset Performance
 |Dataset|모델|Precision@1|Precision@5|Precision@10|Recall@1|Recall@5|Recall10|MAP|
 |------|---|---|---|---|---|---|---|---|
-|MovieLens 1M|CosRec CNN|0.000|0.000|0.000|0.000|0.000|0.000|0.000|
-|MovieLens 1M|CosRec MLP|0.000|0.000|0.000|0.000|0.000|0.000|0.000|
+|MovieLens 1M|CosRec CNN|0.3288|0.2800|0.2501|0.0206|0.0835|0.1557|0.1898|
+|MovieLens 1M|CosRec MLP|0.3097|0.2625|0.2317|0.0195|0.0783|0.1332|0.1758|
 |Gowalla|CosRec CNN|0.000|0.000|0.000|0.000|0.000|0.000|0.000|
 |Gowalla|CosRec MLP|0.000|0.000|0.000|0.000|0.000|0.000|0.000|
