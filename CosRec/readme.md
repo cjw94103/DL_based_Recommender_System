@@ -69,6 +69,9 @@ python evaluate.py --[args]
 ## Learning Curve
 
 ## Testset Performance
-|Dataset|모델|Precision@1|Precision@5|Precision@10|
-|------|---|---|---|---|
-|Gowalla|CosRec CNN|0.000|0.000|0.000|
+|Dataset|모델|Precision@1|Precision@5|Precision@10|Recall@1|Recall@5|Recall10|
+|------|---|---|---|---|---|---|---|
+|MovieLens 1M|CosRec CNN|0.000|0.000|0.000|0.000|0.000|0.000|
+|MovieLens 1M|CosRec MLP|0.000|0.000|0.000|0.000|0.000|0.000|
+|Gowalla|CosRec CNN|0.000|0.000|0.000|0.000|0.000|0.000|
+|Gowalla|CosRec MLP|0.000|0.000|0.000|0.000|0.000|0.000|
