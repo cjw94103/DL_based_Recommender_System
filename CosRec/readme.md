@@ -68,10 +68,15 @@ python evaluate.py --[args]
 
 ## Learning Curve
 
+<p align="center"><img src="https://github.com/user-attachments/assets/9e814505-e17e-4e78-8a24-b3c7f7316e7b" width="70%" height="70%"></p>
+
+- CosRec CNN의 경우 MovieLens 1M, Gowalla Dataset에 대하여 학습이 진행됨에 따라 모든 metric의 안정적인 성능 향상을 볼 수 있음
+- CosRec MLP의 경우 MovieLens 1M에 대하여 안정적인 성능 향상을 볼 수 있지만 Gowalla의 경우 학습이 진행됨에 따라 23 epoch에서 갑작스런 성능 하향 현상이 발생됨
+
 ## Testset Performance
 |Dataset|모델|Precision@1|Precision@5|Precision@10|Recall@1|Recall@5|Recall10|MAP|
 |------|---|---|---|---|---|---|---|---|
 |MovieLens 1M|CosRec CNN|0.3288|0.2800|0.2501|0.0206|0.0835|0.1557|0.1898|
 |MovieLens 1M|CosRec MLP|0.3097|0.2625|0.2317|0.0195|0.0783|0.1332|0.1758|
-|Gowalla|CosRec CNN|0.000|0.000|0.000|0.000|0.000|0.000|0.000|
-|Gowalla|CosRec MLP|0.000|0.000|0.000|0.000|0.000|0.000|0.000|
+|Gowalla|CosRec CNN|0.1503|0.0855|0.0656|0.0223|0.0610|0.0923|0.0667|
+|Gowalla|CosRec MLP|0.1310|0.0775|0.0596|0.0192|0.0556|0.0845|0.0604|
